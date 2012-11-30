@@ -1,0 +1,13 @@
+VX-REXX OS/2 V2.14 Build B3
+VRX: install.VRX
+MacroPath: VRM:E:\VXREXX\Projects\rxast184
+EXEPath: 
+RunParameters: 
+RunDirectory: c:\rxautost
+VRXWindow: __VREMainWindow,1,1168,2168,5767,8000
+VRXWindow: __VREFileListWindow,1,1927,9202,2665,3358
+VRXWindow: __VRESectionListWindow,1,4336,8624,2650,3342
+VRXWindow: __VREToolsWindow,0,2264,8335,4487,1669
+VRXWindow: __VREWindListWindow,1,1072,6890,2650,3150
+UserFile: 1
+UserWindow: Window1,1

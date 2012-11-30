@@ -1,0 +1,10 @@
+VX-REXX OS/2 V2.14 Build B3
+VRX: testurl.VRX
+MacroPath: VRM:G:\VXREXX\Projects
+EXEPath: 
+RunParameters: 
+RunDirectory: 
+VRXWindow: __VREMainWindow,1,1156,2168,5767,8000
+VRXWindow: __VRESectionListWindow,1,2192,4481,2650,3342
+VRXWindow: __VREToolsWindow,1,2252,8335,4478,1659
+UserFile: 1

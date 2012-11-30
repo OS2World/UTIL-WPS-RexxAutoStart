@@ -1,0 +1,28 @@
+<WARPIN OS="OS2_2X">
+	<HEAD>
+	  <TITLE></TITLE>
+	  
+		<PCK 	INDEX=1
+			PACKAGEID="Herwig Bauernfeind\Rexx Autostart\Rexx Autostart\1\8\6"
+			TITLE="Rexx Autostart"
+			TARGET="?:\RXAUTOST"
+			SELECT 
+			CREATEOBJECT="WPFolder|RexxAutoStart|<WP_DESKTOP>|ICONFILE=$(1)\rxastfld.ico;OBJECTID=<RexxAutoStart_Folder>;"
+			CREATEOBJECT="WPProgram|RexxAutoStart^Setup|<RexxAutoStart_Folder>|EXENAME=$(1)\RXAUTOUT.EXE;STARTUPDIR=$(1)\;ICONFILE=$(1)\rxautost.ico;OBJECTID=<RexxAutoStart_Setup>;"
+			CREATEOBJECT="WPProgram|RexxAutoStart^Information|<RexxAutoStart_Folder>|EXENAME=VIEW.EXE;PARAMETERS=$(1)\rxautost.inf;OBJECTID=<RexxAutoStart_Manual>;"
+			CREATEOBJECT="WPProgram|RexxAutoStart^Log File|<RexxAutoStart_Folder>|EXENAME=E.EXE;PARAMETERS=$(1)\rxautost.log;OBJECTID=<RexxAutoStart_Logfile>;"
+			CREATEOBJECT="WPFolder|LAN Startup Folder|<RexxAutoStart_Folder>|ICONFILE=$(1)\rxastfld.ico;OBJECTID=<RexxAutoStart_LAN_Folder>;"
+			CLEARPROFILE="$(MMBASE)\MMPM.INI\MMPM2_AlarmSounds\681"
+			CLEARPROFILE="$(MMBASE)\MMPM.INI\MMPM2_AlarmSounds\682"
+			CLEARPROFILE="$(MMBASE)\MMPM.INI\MMPM2_AlarmSounds\683"
+			CLEARPROFILE="$(MMBASE)\MMPM.INI\MMPM2_AlarmSounds\684"
+			WRITEPROFILE="$(MMBASE)\MMPM.INI\MMPM2_AlarmSounds\681|$(1)\Ready.WAV#RexxAutoStart: Done#70||'00'x"
+			WRITEPROFILE="$(MMBASE)\MMPM.INI\MMPM2_AlarmSounds\682|$(1)\Error.WAV#RexxAutoStart: Abort||'00'x"
+			WRITEPROFILE="$(MMBASE)\MMPM.INI\MMPM2_AlarmSounds\683|$(1)\dudubeep.wav#RexxAutoStart: Open object||'00'x"
+			WRITEPROFILE="$(MMBASE)\MMPM.INI\MMPM2_AlarmSounds\684|$(1)\Open.WAV#RexxAutoStart: Start||'00'x"
+		></PCK>
+	
+	</HEAD>
+	<BODY>
+	</BODY>
+</WARPIN>

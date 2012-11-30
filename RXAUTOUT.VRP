@@ -1,0 +1,14 @@
+VX-REXX OS/2 V2.14 Build B3
+VRX: RXAUTOUT.VRX
+MacroPath: VRM:E:\Dev\REXX\VXREXX\Projects\RxAutoSt.2
+EXEPath: 
+RunParameters: 
+RunDirectory: c:\rxautost
+VRXWindow: __VREMainWindow,1,446,1783,994,4396
+VRXWindow: __VREFileListWindow,1,1205,8817,2665,3358
+VRXWindow: __VRESectionListWindow,1,4143,8624,4601,3342
+VRXWindow: __VREToolsWindow,1,410,-144,4481,1663
+VRXWindow: __VREWindListWindow,1,349,6504,2650,3150
+UserFile: 1
+UserWindow: RxAutoUtMain,1
+UserWindow: Page1,1

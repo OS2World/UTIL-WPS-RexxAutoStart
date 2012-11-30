@@ -1,0 +1,39 @@
+Version 1.7 05-10-2000 quickly ported to VX-REXX, did not work, no release.
+
+version 1.8 15-10-2000 completely new port to VX-REXX, skeleton only.
+
+version 1.8 18-02-2001
+            alpha.1 ("special Tony build")
+                    - beginning to implement Chuck's features from his 2.00
+                    - added interrupt button
+                    - added progress bar
+            alpha.2 - added sound event codes for "Done" and "Abort"
+            alpha.3 - added complete INI code (compabtible to Chuck)
+                      (Chuck's LAN startup folder is missing)
+                    - created RxAutoUt (compatible to Chuck)
+                      (Chuck's install routine is missing)
+                    - added animated icon
+            alpha.4 - added STARTUP.CMD code to RXAUTOUT
+version 1.8.0 31-03-2001                    
+                    - release (too early, obviously)
+version 1.8.x 02-05-2001                    
+                    - Bugfix:  RxAutoSt did not run when not in PATH
+                    - Bugfix:  When EXE not locateable, wrong (old, nonexistent)
+                               exit routine called
+                    - Bugfix:  od_wait only worked via commandline and 
+                               environment variable, not by INI setting...
+                    - Bugfix:  INI not written if Quit! button was pressed
+                    - Feature: LAN StartupFolder (LAN detection incomplete)
+                    - Feature: Simple Login check for Peer Network (incomplete)
+                    - Feature: enhanced animation
+                    - Feature: Change delay between objects on the fly
+                    - Feature: Waits for Warp Center (chm)
+version 1.8.9 01-06-2002                    
+                    - Bugfix:  LAN Startup Folder completed
+                    - Feature: Wait for startup.cmd completion (chm)
+
+To-Do-List:
+                    - RxAutoUt does not work on Warp 3 (forgot error code...)
+                    - RxAutoSt last sound sometimes gets cut off
+                    - Installer: WPI build half done
+                    

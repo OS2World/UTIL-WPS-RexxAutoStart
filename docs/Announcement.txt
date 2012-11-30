@@ -1,0 +1,52 @@
+RexxAutoStart 1.8.0
+
+What's new?
+
+- NEW RexxAutoStart is now a PM-program, it was ported to VX-REXX.
+- NEW Interrupt startup process at any time.
+- NEW Progress bar to see how much has been done.
+- NEW 3 cool new sound events configurable with the OS/2 sound object.
+- NEW configurable position and color. 
+
+Where can it be found?
+
+- binaries now   ftp://hobbes.nmsu.edu/pub/incoming/rxast180.zip 
+- binaries later  ftp://hobbes.nmsu.edu/pub/os2/util/wps/rxast180.zip
+- source now   ftp://hobbes.nmsu.edu/pub/incoming/rxast180src.zip 
+- source later  ftp://hobbes.nmsu.edu/pub/os2/util/wps/rxast180src.zip
+
+What happened since version 1.60?
+
+After a considerable time, in which I did nothing on RexxAutoStart, I am 
+back now. Unfortunately, in the meantime, Chuck migrated RexxAutoStart to 
+GPF/REXX, a development tool, I don't have (and don't intend to get).
+
+In late October 2000 I restarted the work with VX-REXX from scratch. I did not
+complete it, however... Until now. Originally, this version 1.8.0 was based on
+the 1.60 codebase. I merged in the changes, Chuck made in 1.61 and 1.62, and 
+ported some internal features of his 2.00.
+
+So today, RexxAutoStart has two separate sources, Chuck's and mine. My 
+intention is to integrate Chuck's advanced features (especially the LAN startup
+folder) into my source. In addition, my version 1.8.0 has some features, 
+Chuck's 2.00 currently has not.
+
+The main differences are:
+
+- It is based on the 1.6x codebase, all remaining switches and options are compatible.
+- It still supports RXAUTOST environment variable and commandline parameters.
+- It can be opened from anywhere, as long RXAUTOST.EXE is in the PATH 
+  (1.6x and Chuck's 2.00 need the complete path in the execution line)
+- It runs on OS/2 Warp 3, 4 and 4.5
+- It has its own RXAUTOST.INI, which is 100% compatible to Chucks' INI.
+- It does *not* support Chuck's LAN startup folder by now.
+  It will in the next release
+- It has the following features Chuck's 2.00 currently has not 
+  (which I consider important for usability)
+   - a progress bar
+   - a Quit now! button to interrupt and leave startup processing immediately
+- For those, who like to have bells and whistles (like me), version 1.8.0 
+  supports the following features:
+   - 3 cool sound events, configurable with the OS/2 sound object
+   - configurable position and background colors
+   - animated icon
